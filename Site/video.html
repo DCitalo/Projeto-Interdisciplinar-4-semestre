@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="jquery-1.12.4.js"></script>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link  href="style.css">
+<script src="general.js"></script>
+<link rel="stylesheet" href="owl.carousel.css">
+<link rel="stylesheet" href="owl.theme.css">
+<link rel="stylesheet" href="owl.transitions.css">
+<script src="owl.carousel.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+	<div id="topo-pc">
+		<div id="logo">
+			<img src="logo.png" />
+		</div>
+	</div>
+<div id="site-pc">
+	<div class="countainer-grande-video">
+		<div class="countainer-video">
+			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/8l6T3fwxAyw" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="countainer-grande-mapa">
+		<div class="titulo-mapa">
+			<h1>Mapa</h1>
+		</div>
+		<div class="countainer-mapa">
+			<div class="mapa-left"></div>
+			<div class="mapa-right"></div>
+		</div>
+	</div>
+	<div class="container-grande-votacao">
+		<div class="titulo-votacao">
+			<h1>Votar</h1>
+		</div>
+		<div class="countainer-votacao">
+			<div class="votar-left">
+				<h3>Barra Funda</h3>
+			</div>
+			<h2>Vs</h2>
+			<div class="votar-right">
+				<h3>Santo Amaro</h3>
+			</div>
+		</div>
+	</div>
+	<div class="container-grande-insta">
+		<div class="titulo-insta">
+			<h1>Instagram</h1>
+		</div>
+		<div class="countainer-insta">
+			<div id="owl-demo" class="owl-carousel owl-theme">
+ 
+  <div class="item"><img src="1.png" alt="The Last of us"></div>
+  <div class="item"><img src="2.png" alt="GTA V"></div>
+  <div class="item"><img src="3.png" alt="Mirror Edge"></div>
+ 
+</div>
+		</div>
+	</div>
+	<div id="rodape">
+		<div id="rodape-esquerda">
+			<div class="terco esquerda"><div class="quad ama"></div><h3>Info</h3></div>
+			<div class="terco"><div class="quad verde"></div><h3>Legenda</h3></div>
+			<div class="terco direita"><img src="return.png" /><h3>Return</h3></div>
+		</div>
+		<div id="rodape-direita">
+		<h3>Adeque a sua resolução</h3>
+		<p class="resolucoes">4:3</p>
+		<p class="resolucoes">16:9</p>
+		</div>
+	</div>
+</div>
+<div id="site-mobile">
+	<ul class="countainer-mobile">
+		<img src="logo.png" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor hendrerit diam. Curabitur vel fringilla diam, at sodales sapien. Suspendisse enim velit, molestie nec accumsan id, maximus vitae magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam elementum rutrum odio eget ultrices. Nulla nec leo nunc. </p>
+	</ul>
+	<ul class="countainer-mobile-topo">
+		<li  class="icone"><img src="1.png" ></li>
+		<li class="icone"><img src="2.png" ></li>
+	</ul>
+	<ul class="countainer-mobile">
+		<li class="icone"><img src="3.png" ></li>
+		<li class="icone"><img src="4.png" ></li>
+	</ul>
+	<ul class="countainer-mobile">
+		<li class="icone"><img src="5.png" ></li>
+		<li class="icone"><img src="6.png" ></li>
+	</ul>
+</div>
+<script type="text/javascript">
+	 
+  $("#owl-demo").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+</script>
+</body>
+</html>
